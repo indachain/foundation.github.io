@@ -1,0 +1,23 @@
+#
+# https://www.sylvaindurand.org/making-jekyll-multilingual/
+#
+title: 
+ en: InDaChain Foundation
+email: m@idc.foundation
+name: InDaChain Foundation
+vision: 
+ en: >
+  The Blockchain Science group
+baseurl: ""
+url: "http://idc.foundation"
+github: indachain
+markdown: kramdown
+
+collections:
+ clients:
+       output: false
+ chains:
+       output: false
+
+gems:
+  - jekyll-sitemap

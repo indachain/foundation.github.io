@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+ {% include head.html %}
+ <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="status" class="text-center">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <section class="main text-center parallax-window" id="home" data-parallax="scroll" data-image-src="./assets/img/home.jpg">
+      <div class="page">
+        <div class="wrapper">
+          <div class="container">
+            <div class="indachain">
+              <span>
+                In Da Chain
+                <div>Foundation</div>
+              </span>
+            </div>
+            <h2 class="heading">coming soon</h2>
+            <p>
+              The Blockchain Science group
+            </p>
+            <div class="row">
+              <div id="countdown"></div>
+            </div>
+            <!-- Subscription form -->
+            <form action="http://foundation.us16.list-manage.com/subscribe/post?u=e32a9debf77b2840744fdcfa6&amp;id=05ea69a6ae" method="post" id="mc-embedded-subscribe-form" role="form" id="signupForm" name="mc-embedded-subscribe-form" class="form-inline signup" target="_blank" novalidate>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_e32a9debf77b2840744fdcfa6_05ea69a6ae" tabindex="-1" value=""></div>
+              <div class="form-group">
+                <input type="email" value="" name="EMAIL" class="form-control" placeholder="Email address" required>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-theme ladda-button" data-style="expand-left"><span class="ladda-label">Get notified!</span></button>
+              </div>
+            </form>
+            <footer class="text-center">
+              <div class="social">
+                <a href="#" class="btn btn-theme"><i class="fa fa-facebook"></i></a>
+                <a href="#" class="btn btn-theme"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="btn btn-theme"><i class="fa fa-google-plus"></i></a>
+                <a href="#" class="btn btn-theme"><i class="fa fa-dribbble"></i></a>
+                <a href="#" class="btn btn-theme"><i class="fa fa-linkedin"></i></a>
+              </div>
+            </footer>
+          </div>
+          <div class="arrow-down">
+            <a class="scroll" href="#about" id="scroll"><i class="fa fa-angle-double-down"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ content }}
+   <!-- Placed at the end of the document so the pages load faster -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.backstretch.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/bootstrapValidator.min.js"></script>
+    <script src="assets/js/validator/emailAddress.js"></script>
+    <script src="assets/js/spin.min.js"></script>
+    <script src="assets/js/ladda.min.js"></script>
+    <script src="assets/js/retina.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/parallax.min.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/settings-panel.js"></script>
+   <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-102627307-1', 'auto');
+    ga('send', 'pageview');
+   </script>
+ </body>
+</html>
